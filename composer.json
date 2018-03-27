@@ -59,6 +59,8 @@
     "test": [
       "ls -al",
       "ls / -al",
+      "ls web",
+      "pwd",
       "phpunit test"
     ]
   }
