@@ -56,9 +56,10 @@
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],
+    "install-tests":[
+      "bash web/app/themes/moesia/bin/install-wp-tests.sh wordpress_test root '' localhost $WP_VERSION"
+    ],
     "test": [
-      "ls -al web/wp/wp-content/themes",
-      "ls -al web/app/themes",
       "phpunit test"
     ]
   }
