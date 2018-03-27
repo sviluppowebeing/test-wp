@@ -5,7 +5,7 @@ class FileExistsTest extends TestCase
 {
     public function testFileExists()
     {
-        $this->assertFileExists('web/wp/wp-content/themes/moesia/footer.php');
+        $this->assertFileExists('web/app/themes/moesia/footer.php');
     }
 }
 ?>
