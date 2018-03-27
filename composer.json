@@ -57,8 +57,7 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
-      "ls -al web",
-      "ls -al web/wp/wp-content",
+      "ls -al web/wp/wp-content/themes",
       "ls -al web/app/themes",
       "phpunit test"
     ]
