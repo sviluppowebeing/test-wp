@@ -16,7 +16,6 @@
       "homepage": "https://github.com/retlehs"
     }
   ],
-
   "keywords": [
     "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
   ],
@@ -58,7 +57,7 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
-      "echo ok"
+      "phpunit test"
     ]
   }
 }
