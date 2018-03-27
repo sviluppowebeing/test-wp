@@ -57,6 +57,8 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
+      "ls -al",
+      "ls / -al",
       "phpunit test"
     ]
   }
