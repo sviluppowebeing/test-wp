@@ -57,7 +57,7 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "install-tests":[
-      "bash web/app/themes/moesia/bin/install-wp-tests.sh wordpress_test root '' localhost $WP_VERSION"
+      "bash ./web/app/themes/moesia/bin/install-wp-tests.sh wordpress_test root '' localhost $WP_VERSION"
     ],
     "test": [
       "phpunit test"
