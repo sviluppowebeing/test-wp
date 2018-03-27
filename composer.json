@@ -57,10 +57,9 @@
       "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
-      "ls -al",
-      "ls / -al",
-      "ls web",
-      "pwd",
+      "ls web -al",
+      "ls web/wp -al",
+      "ls web/app -al",
       "phpunit test"
     ]
   }
