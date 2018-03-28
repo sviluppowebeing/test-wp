@@ -16,7 +16,6 @@
       "homepage": "https://github.com/retlehs"
     }
   ],
-
   "keywords": [
     "bedrock", "roots", "wordpress", "stack", "composer", "vagrant", "wp"
   ],
@@ -57,8 +56,12 @@
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],
+    "install-tests":[
+      "bash ./web/app/themes/moesia/bin/install-wp-tests.sh wordpress_test root '' localhost $WP_VERSION"
+    ],
     "test": [
-      "echo ok"
+      "phpunit test",
+      "phpunit --configuration ./web/app/themes/moesia/phpunit.xml.dist"
     ]
   }
 }

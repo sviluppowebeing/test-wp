@@ -32,6 +32,9 @@ if (file_exists($env_config)) {
     require_once $env_config;
 }
 
+//temp directory
+define('WP_TEMP_DIR', dirname(__FILE__) . '/wp-content/temp/');
+
 /**
  * URLs
  */
