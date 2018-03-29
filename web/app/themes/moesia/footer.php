@@ -24,7 +24,7 @@
 			<span class="sep"> | </span>
 			<?php printf( __( 'Theme: %2$s by %1$s', 'moesia' ), 'aThemes', '<a href="http://athemes.com/theme/moesia">Moesia</a>' ); ?>
             <span class="sep"> | </span>
-            This is a test by FZAN - TEST 2
+            This is a test by FZAN 
 		</div><!-- .site-info -->
 		<?php tha_footer_bottom(); ?>
 	</footer><!-- #colophon -->
